@@ -18,7 +18,7 @@ dependencies {
     implementation project(':circletabhost')
 }
 ```
-2.在布局文件里使用CircleTabHost控件
+2.在布局xml文件里使用CircleTabHost控件
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -45,7 +45,7 @@ dependencies {
         app:tab_text_select_color="#FF5001" />
 </LinearLayout>
 ```
-3.在代码是实例化控件并添加Tab
+3.在代码里实例化控件并添加Tab，设置角标
 ```java
 //图标
 int[] tabIco = {R.drawable.home_sel, R.drawable.tfaccount_sel,
