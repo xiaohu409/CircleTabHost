@@ -1,20 +1,21 @@
 # CircleTabHost
 初始版本上传
 
-##概述
+### 概述
 这是一个Android Library 实现带角标数字的FragmentTabHost
 
 效果图如下：
 
 ![效果图](device-2018-01-30-224828.png)
 
-##使用教程
+### 使用教程
 
 1.在module的build.gradle引用类库
 ```groovy 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.android.support:support-v4:27.0.2'
+
+    implementation project(':circletabhost')
 }
 ```
 2.在布局文件里使用CircleTabHost控件
