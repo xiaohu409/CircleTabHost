@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/content_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"/>
+
+    <com.hutao.circletabhost.widget.CircleTabHost
+        android:id="@+id/circle_tab_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tab_text_size="11dp"
+        app:tab_text_color="#5D646F"
+        app:tab_text_select_color="#FF5001" />
+</LinearLayout>

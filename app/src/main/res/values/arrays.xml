@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_title">
+        <item>首页</item>
+        <item>微淘</item>
+        <item>消息</item>
+        <item>购物车</item>
+        <item>我的淘宝</item>
+    </string-array>
+
+</resources>

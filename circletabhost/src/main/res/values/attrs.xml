@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleTabHost">
+        <attr name="tab_text_size" format="dimension|reference"/>
+        <attr name="tab_text_color" format="color|reference" />
+        <attr name="tab_text_select_color" format="color|reference" />
+
+        <attr name="corner_mark_text_size" format="dimension|reference" />
+        <attr name="corner_mark_text_color" format="color|reference" />
+        <attr name="corner_mark_text_background_color" format="color|reference" />
+    </declare-styleable>
+
+</resources>
