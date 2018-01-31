@@ -2,7 +2,7 @@
 初始版本上传
 
 ### 概述
-这是一个Android Library 实现带角标数字的FragmentTabHost
+这是一个Android Library 实现带数字角标的FragmentTabHost
 
 效果图如下：
 
@@ -18,7 +18,7 @@ dependencies {
     implementation project(':circletabhost')
 }
 ```
-2.在布局xml文件里使用CircleTabHost控件
+2.在xml布局文件里使用CircleTabHost控件
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
