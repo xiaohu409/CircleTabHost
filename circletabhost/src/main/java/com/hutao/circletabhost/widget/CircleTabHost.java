@@ -138,7 +138,9 @@ public class CircleTabHost extends LinearLayout {
      * 索引为0是默认的tab
      */
     private void showDefaultTab() {
-        showTab(0);
+        if (mCurrentIndex == -1) {
+            showTab(0);
+        }
     }
 
     /**
@@ -146,6 +148,9 @@ public class CircleTabHost extends LinearLayout {
      * @param index
      */
     private void showTab(int index) {
+        if (mCurrentIndex == index) {
+            return;
+        }
         mCurrentIndex = index;
         for (Holder holder : mHolderList) {
             if (holder.getIndex() == index) {
@@ -279,6 +284,9 @@ public class CircleTabHost extends LinearLayout {
         }
     }
 
+    /**
+     * Tab回调
+     */
     public interface OnTabListener {
         void onTabChange(int index, TabParam param);
     }
@@ -297,9 +305,17 @@ public class CircleTabHost extends LinearLayout {
             if (holder.getIndex() == index) {
                 TextView cornerMarkView = holder.getView().findViewById(R.id.corner_mark_id);
                 cornerMarkView.setText(num);
-                cornerMarkView.setVisibility(TextUtils.isEmpty(num) ? GONE : VISIBLE);
+                cornerMarkView.setVisibility(TextUtils.isEmpty(num) || num.equals("0") ? GONE : VISIBLE);
                 break;
             }
         }
+    }
+
+    /**
+     * 显示指定fragment
+     * @param index
+     */
+    public void showTabByIndex(int index) {
+        showTab(index);
     }
 }
