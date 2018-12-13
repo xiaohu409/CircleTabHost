@@ -23,7 +23,7 @@ dependencies {
 
 ```groovy
 dependencies {
-    implementation 'com.github.xiaohu409:CircleTabHost:Tag'
+    implementation 'com.github.xiaohu409:CircleTabHost:1.0'
 }
 ```
 
