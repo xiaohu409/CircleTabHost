@@ -20,7 +20,14 @@ dependencies {
 }
 ```
 或
-
+```groovy
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
 ```groovy
 dependencies {
     implementation 'com.github.xiaohu409:CircleTabHost:1.0'
