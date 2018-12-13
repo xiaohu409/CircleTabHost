@@ -1,16 +1,14 @@
 # CircleTabHost
-初始版本上传
+[![](https://jitpack.io/v/xiaohu409/CircleTabHost.svg)](https://jitpack.io/#xiaohu409/CircleTabHost)
 
 ### 概述
-这是一个Android Library 实现带数字角标的FragmentTabHost
+这是一个带数字角标的FragmentTabHost库
 
 效果图如下：
 
 ![效果图](device-2018-01-30-224828.png)
 
 ### 使用教程
-[![](https://jitpack.io/v/xiaohu409/CircleTabHost.svg)](https://jitpack.io/#xiaohu409/CircleTabHost)
-
 1.在module的build.gradle引用类库
 ```groovy 
 dependencies {
