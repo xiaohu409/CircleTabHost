@@ -19,6 +19,14 @@ dependencies {
     implementation project(':circletabhost')
 }
 ```
+或
+
+```groovy
+dependencies {
+    implementation 'com.github.xiaohu409:CircleTabHost:Tag'
+}
+```
+
 2.在xml布局文件里使用CircleTabHost控件
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
