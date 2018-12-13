@@ -9,6 +9,7 @@
 ![效果图](device-2018-01-30-224828.png)
 
 ### 使用教程
+[![](https://jitpack.io/v/xiaohu409/CircleTabHost.svg)](https://jitpack.io/#xiaohu409/CircleTabHost)
 
 1.在module的build.gradle引用类库
 ```groovy 
