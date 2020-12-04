@@ -39,10 +39,9 @@ dependencies {
         android:id="@+id/content_id"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@android:color/darker_gray"/>
+        android:layout_weight="1"/>
 
-    <com.hutao.circletabhost.widget.CircleTabHost
+    <com.github.xiaohu409.circletabhost.widget.CircleTabHost
         android:id="@+id/circle_tab_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
