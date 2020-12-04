@@ -14,7 +14,7 @@
         android:layout_weight="1"
         android:background="@android:color/darker_gray"/>
 
-    <com.hutao.circletabhost.widget.CircleTabHost
+    <com.github.xiaohu409.circletabhost.widget.CircleTabHost
         android:id="@+id/circle_tab_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
