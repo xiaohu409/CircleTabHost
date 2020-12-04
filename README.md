@@ -10,14 +10,7 @@
 
 ### 使用教程
 1.在module的build.gradle引用类库
-```groovy 
-dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
 
-    implementation project(':circletabhost')
-}
-```
-或
 ```groovy
 allprojects {
     repositories {
@@ -25,8 +18,7 @@ allprojects {
         maven { url 'https://jitpack.io' }
     }
 }
-```
-```groovy
+
 dependencies {
     implementation 'com.github.xiaohu409:CircleTabHost:1.0'
 }
