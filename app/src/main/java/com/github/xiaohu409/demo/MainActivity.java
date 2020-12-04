@@ -1,13 +1,14 @@
-package com.github.xiaohu409.circletabhost;
+package com.github.xiaohu409.demo;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
-import com.github.xiaohu409.circletabhost.fragment.BlankFragment1;
-import com.github.xiaohu409.circletabhost.fragment.BlankFragment2;
-import com.github.xiaohu409.circletabhost.fragment.BlankFragment3;
-import com.github.xiaohu409.circletabhost.fragment.BlankFragment4;
-import com.github.xiaohu409.circletabhost.fragment.BlankFragment5;
+import com.github.xiaohu409.demo.R;
+import com.github.xiaohu409.demo.fragment.BlankFragment1;
+import com.github.xiaohu409.demo.fragment.BlankFragment2;
+import com.github.xiaohu409.demo.fragment.BlankFragment3;
+import com.github.xiaohu409.demo.fragment.BlankFragment4;
+import com.github.xiaohu409.demo.fragment.BlankFragment5;
 import com.github.xiaohu409.circletabhost.widget.CircleTabHost;
 
 public class MainActivity extends AppCompatActivity {
